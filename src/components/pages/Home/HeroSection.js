@@ -5,14 +5,21 @@ const HeroSection = () => {
   return (
     <div className="hero-container">
       <nav className="navbar">
-        {/* Your navigation links here */}
+        <ul>
+            <li>
+                Home
+            </li>
+            <li>
+                About
+            </li>
+            </ul>
       </nav>
       <div className="hero-content">
         <div className="logo">
           {/* Your logo image */}
         </div>
         <div className="hero-image">
-          {/* Your main hero image */}
+          {/* <img src='https://c4.wallpaperflare.com/wallpaper/226/358/339/muscles-dark-men-fitness-model-model-hd-wallpaper-preview.jpg'></img> */}
         </div>
       </div>
     </div>
